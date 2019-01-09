@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS tickets;
+
+CREATE TABLE tickets (
+  id SERIAL8 PRIMARY KEY,
+  title VARCHAR(255),
+  date VARCHAR(255),
+  time VARCHAR(255),
+  seat VARCHAR(255)
+);
